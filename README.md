@@ -27,8 +27,8 @@ For Windows PowerShell, use $env: instead of export:
     > $env:FLASK_ENV = "development"
 
 
-Secondly, initialize the PostgreSQL DB
+Secondly, initialize the PostgreSQL DB:
     $ flask init-db
 
-Now, your app is ready to run
+Now, your app is ready to run:
     $flask run
